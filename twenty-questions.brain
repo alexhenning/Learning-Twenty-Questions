@@ -1,0 +1,15 @@
+(MAKE-TREE "Is it organic?"
+           (MAKE-TREE "Is it an animal?"
+                      (MAKE-TREE "Is it a bird?"
+                                 (MAKE-TREE "Is it large?" (MAKE-LEAF "Emu")
+                                            (MAKE-LEAF "Penguin"))
+                                 (MAKE-TREE "Is it a method of transportation?"
+                                            (MAKE-TREE "Is it big?"
+                                                       (MAKE-LEAF "Elephant")
+                                                       (MAKE-LEAF "Pony"))
+                                            (MAKE-LEAF "Leopard")))
+                      (MAKE-LEAF "Tree"))
+           (MAKE-TREE "Is it bigger than a breadbox?"
+                      (MAKE-TREE "Is it used for transportation?"
+                                 (MAKE-LEAF "Spaceship") (MAKE-LEAF "Robot"))
+                      (MAKE-LEAF "Toaster")))
